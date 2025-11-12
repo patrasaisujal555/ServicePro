@@ -1,0 +1,48 @@
+{
+  "services": {
+    "svc_ac_repair": {
+      "title": "AC Service & Repair",
+      "category": "AC",
+      "price": 800,
+      "images": ["https://i.imgur.com/4A7gXbG.jpg"],
+      "description": "Full AC servicing and minor repair.",
+      "providerId": "provider_1",
+      "rating": 4.5,
+      "tags": ["ac","repair","home"]
+    },
+    "svc_plumbing_basic": {
+      "title": "Basic Plumbing",
+      "category": "Plumbing",
+      "price": 350,
+      "images": ["https://i.imgur.com/3R9xL8b.jpg"],
+      "description": "Faucet fixing, pipe leak repair, drain cleaning.",
+      "providerId": "provider_2",
+      "rating": 4.2,
+      "tags": ["plumbing","repair"]
+    },
+    "svc_electrical": {
+      "title": "Electrical Repair",
+      "category": "Electrical",
+      "price": 500,
+      "images": ["https://i.imgur.com/Mv0H6wF.jpg"],
+      "description": "Switchboard, wiring checks, minor faults.",
+      "providerId": "provider_1",
+      "rating": 4.3,
+      "tags": ["electrical","wiring"]
+    }
+  },
+  "providers": {
+    "provider_1": {
+      "name": "QuickFix Services",
+      "phone": "9876543210",
+      "rating": 4.4,
+      "address": "Town Area"
+    },
+    "provider_2": {
+      "name": "PlumbCare",
+      "phone": "9988776655",
+      "rating": 4.1,
+      "address": "Sector 5"
+    }
+  }
+}
